@@ -1,0 +1,21 @@
+{
+    "name": "wi1dcard/yii2-ttshop-express",
+    "description": "A waybill tracking library for Yii2, supported almost every express in China.",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "yiisoft/yii2": "*",
+        "curl/curl": "^2.3.3"
+    },
+    "authors": [
+        {
+            "name": "senyzy",
+            "email": "senyzy@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ttshop\\Express\\" : "lib/"
+        }
+    }
+}

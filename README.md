@@ -1,2 +1,2 @@
 # yii2-ttshop-express
-ttshop的快递扩展
+基于yii2的拓展，内部项目使用
