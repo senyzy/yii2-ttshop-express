@@ -2,11 +2,16 @@
     "name": "senyzy/yii2-ttshop-express",
     "description": "A waybill tracking library for Yii2, supported almost every express in China.",
     "type": "library",
-    "license": "MIT",
     "require": {
-        "php": ">=7.2",
-        "yiisoft/yii2": "*",
-        "curl/curl": "^2.3.3"
+        "php": ">=7.1",
+        "yiisoft/yii2": "^2.0",
+        "curl/curl": "^2.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ttshop\\Express\\": "lib/"
+        }
     },
     "authors": [
         {
@@ -14,9 +19,5 @@
             "email": "senyzy@foxmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Ttshop\\Express\\" : "lib/"
-        }
-    }
+    "minimum-stability": "dev"
 }
